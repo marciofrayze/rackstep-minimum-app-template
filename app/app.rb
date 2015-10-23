@@ -21,7 +21,7 @@ class Root < RackStep::Controller
   def index
     # RackStep was created mainly to be used for microservices and single page
     # applications, so by default it will set the content type of the response
-    # as JSON, but for this example, let's chance that to plain txt.
+    # as JSON, but for this example, let's chance that to plain text.
     response[:contentType] = 'text/plain'
 
     # Let's return a simple string of text as the content of the response.
