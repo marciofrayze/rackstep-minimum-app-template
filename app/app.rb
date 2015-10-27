@@ -22,10 +22,10 @@ class Root < RackStep::Controller
     # RackStep was created mainly to be used for microservices and single page
     # applications, so by default it will set the content type of the response
     # as JSON, but for this example, let's chance that to plain txt.
-    response[:contentType] = 'text/plain'
+    response.content_type = 'text/plain'
 
     # Let's return a simple string of text as the content of the response.
-    response[:content] = "Welcome to the RackStep minimum app template."
+    response.body = "Welcome to the RackStep minimum app template."
   end
 
 end
