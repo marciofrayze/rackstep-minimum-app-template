@@ -2,14 +2,13 @@
 
 This is a very simple but functional example app build using RackStep. This is
 just an example to prove how simple a RackStep app can be. But for your own
-applications, we recommend you to use the example under the app-template folder,
-since it's much more complete.
+applications, we recommend you to use a more complete example available at: https://github.com/mfdavid/rackstep-app-template
 
 
 ## Dependancies
 
 This example app was developed and tested with Ruby 2.2.3. The only hard
-dependency is Rack itself.
+dependency is RackStep and Rack itself.
 
 
 ## How to
