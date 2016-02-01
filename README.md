@@ -1,4 +1,4 @@
-# RackStep App Template
+# RackStep Minimum App Template
 
 This is a very simple but functional example app build using RackStep. This is
 just an example to prove how simple a RackStep app can be. But for your own
