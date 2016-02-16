@@ -4,21 +4,16 @@ require 'rackstep'
 # a single route.
 class App < RackStep::App
 
-  def initialize(env)
-    # Must call super first, to initialize all the necessary attributes.
-    super(env)
-
-    # Adding a route to requests made to the root of our path and delegating
-    # them to the index method of Root controller.
-    add_route('GET', '', 'Root', 'index')
-  end
+  # Adding a route to requests made to the root of our path and delegating
+  # it to Root controller.
+  add_route('GET', '', 'Root')
 
 end
 
 # Creating the controller that will process the request.
 class Root < RackStep::Controller
 
-  def index
+  def process_request
     # RackStep was created mainly to be used for microservices and single page
     # applications, so by default it will set the content type of the response
     # as JSON, but for this example, let's chance that to plain txt.
