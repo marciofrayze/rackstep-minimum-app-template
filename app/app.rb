@@ -20,7 +20,7 @@ class Root < RackStep::Controller
     response.content_type = 'text/plain'
 
     # Let's set a simple string of text as the content of the response.
-    response.body = "Welcome to the RackStep minimum app template."
+    response.body = 'Welcome to the RackStep minimum app template.'
   end
 
 end
