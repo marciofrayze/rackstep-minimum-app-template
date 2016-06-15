@@ -1,15 +1,5 @@
 require 'rackstep'
 
-# Creating the app class that will be instanciated by the rack server and adding
-# a single route.
-class App < RackStep::App
-
-  # Adding a route to requests made to the root of our path and delegating
-  # it to Root controller.
-  add_route('GET', '', 'Root')
-
-end
-
 # Creating the controller that will process the request.
 class Root < RackStep::Controller
 
@@ -24,3 +14,14 @@ class Root < RackStep::Controller
   end
 
 end
+
+# Creating the app class that will be instanciated by the rack server and adding
+# a single route.
+class App < RackStep::App
+
+  # Adding a route to requests made to the root of our path and delegating
+  # it to Root controller.
+  add_route('GET', '', Root)
+
+end
+
