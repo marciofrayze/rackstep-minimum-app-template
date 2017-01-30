@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     rack (2.0.1)
-    rackstep (0.0.8)
+    rackstep (0.0.9)
 
 PLATFORMS
   ruby
