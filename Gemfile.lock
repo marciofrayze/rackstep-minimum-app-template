@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (2.0.5)
+    rackstep (0.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  rackstep
+
+RUBY VERSION
+   ruby 2.5.0p0
+
+BUNDLED WITH
+   1.16.1
