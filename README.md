@@ -7,7 +7,7 @@ applications, we recommend you to use a more complete example available at: http
 
 ## Dependancies
 
-This example app was developed and tested with Ruby 3.0.1. The only hard
+This example app was developed and tested with Ruby 3.1.2. The only hard
 dependency is RackStep and Rack itself.
 
 
