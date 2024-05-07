@@ -13,10 +13,11 @@ dependency is RackStep and Rack itself.
 
 ## How to
 
-To run the app, just start a rack compatible server like rackup or shotgun.
+To run the app, just start a rack compatible server like [rackup](https://github.com/rack/rackup).
 
+Just run `bundle install` to download the dependencies and then `bundle exec rackup` to start the server.
 
 ## Author
 
 RackStep and RackStep App Templates are developed by Marcio Frayze David -
-mfdavid@gmail.com.
+marcio@segunda.tech.
