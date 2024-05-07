@@ -1,18 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rack (2.2.3.1)
-    rackstep (0.2.2)
+    rack (3.0.10)
+    rackstep (0.3.0)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    webrick (1.8.1)
 
 PLATFORMS
-  x86_64-darwin-21
+  arm64-darwin-23
+  ruby
 
 DEPENDENCIES
   rack
   rackstep
+  rackup
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.3.1p55
 
 BUNDLED WITH
-   2.3.7
+   2.5.10
